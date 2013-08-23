@@ -1,0 +1,354 @@
+/*
+Theme Name: WJD
+Theme URI: http://code.jci-europe.eu/themes/WJD
+Description: Template im Design der Wirtschaftsjunioren Deutschland
+Version: 2.0
+Author: Marco Tarsia - Christian Asche - WJ Hessen
+Author URI: http://www.tarsia.de
+Tags: WJ, WJD, JCI
+*/
+body{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #484848;
+
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-size: 20px;
+}
+
+h2, h3, h4, h5, h6{
+}
+
+a, a:visited{
+	color:  #3399FF;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+h1 a, h2 a, h3 a, h1 a:visited, h2 a:visited, h3 a:visited{ color: #484848 !important; }
+
+img{ border: none; font-family: Arial, sans-serif; }
+
+#outer{
+	width: 942px;
+	border: 0px solid;
+	margin: 0px auto 25px auto;
+}
+#logo{
+	width: 570px;
+	float: left;
+}
+#header{ margin-bottom: 25px; }
+#header ul{
+	width:88px;
+	border-right: 1px dotted #484848;
+	float: left;
+	text-align: right;
+	list-style: none;
+	margin-right: 34px;
+	padding-right: 34px;
+}
+#header a{ color: #484848; font-size: 10px; }
+#claim{
+	float: left;
+}
+#navi{ margin: 0; padding: 0; }
+#navi li{ 
+	display: inline; 
+	float: left;
+	margin: 0; 
+	padding: 0; 
+	width: 132px;
+	height: 45px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+#navi li.rot{ background: url( images/bgr_red_off.png); }
+#navi li.rot:hover{ background: url( images/bgr_red_on.png); }
+
+#navi li.gruen{ background: url( images/bgr_green_off.png); }
+#navi li.gruen:hover{ background: url( images/bgr_green_on.png); }
+
+#navi li.schwarz{ background: url( images/bgr_black_off.png); }
+#navi li.schwarz:hover{ background: url( images/bgr_black_on.png); }
+
+#navi li.gelb{ background: url( images/bgr_orange_off.png); }
+#navi li.gelb:hover{ background: url( images/bgr_orange_on.png); }
+
+#navi li.blau{ background: url( images/bgr_blue_off.png); }
+#navi li.blau:hover{ background: url( images/bgr_blue_on.png); }
+
+#navi li.search{
+	width: 222px;
+	padding-top: 15px;
+	background: url( images/bgr_search_off.png);
+}
+#navi li input{
+	border: 1px solid #999;
+	background: #FFF;
+	font-size: 10px;
+	margin-right: 3px;
+}
+#navi a{
+	color: #484848;
+	font-family: Tahoma, Arial, sans-serif;
+	text-transform: uppercase;
+	display: block;
+	padding: 5px 0 10px 0;
+	
+}
+#navi a span{
+	font-family: Arial, sans-serif;
+	font-size: 9px;
+	text-transform: none;
+}
+#navi li:hover a{
+	color: #FFF;
+	text-decoration: none;
+}
+#identifier{
+	margin-bottom: 25px;
+	height: 211px;
+}
+#identifier h1{
+	width: 550px;
+	color: #004494;
+	padding: 80px 0 0 25px;
+	margin: 0;
+	margin-top: -9px;	
+}
+#loginout{ text-align: right; font-size: 9px; }
+#loginout a{ color: #484848; }
+#inner{
+	width: 722px;
+	float: left;
+}
+#content{
+	width: 452px;
+	padding: 0 25px;
+	float: right;
+}
+#subnavi{
+	width: 220px;
+	float: left;
+}
+#subnavi h2{ font-size: 14px; margin-top: 25px;}
+#subnavi h3{ font-size: 12px; }
+
+#context{
+	float: right;
+	width: 210px;
+	padding-right: 10px;
+}
+#context h2{ font-size: 12px; }
+
+#context h2.widgettitle{
+	border: 1px solid #CCC;
+	border-bottom: none;
+	padding: 5px 10px;
+	margin-bottom: 0;
+	display: inline;
+	line-height: 26px;
+}
+
+#context ul{
+	border: 1px solid #CCC;
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 5px 10px;
+	list-style: none;
+}
+#context ul a.eventname{
+	color: #484848;
+	font-weight: bold;
+}
+#context li{
+	border-bottom: 1px dashed #a6ce39;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#hotnews{
+	border: 1px solid #CCC;
+	padding: 5px 10px;
+	margin-bottom: 25px;
+}
+
+#badge{
+	position: absolute;
+	top: 320px;
+	left: 50%;
+	margin-left: 410px;
+}
+#sidebar{
+}
+#sidebar li, #sidebar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#sidebar a{
+	display: block;
+	border-bottom: 1px dashed #a6ce39;
+	padding: 3px 10px;
+	color: #484848;
+	font-weight: bold;
+}
+#sidebar li li li a{
+	padding-left: 20px;
+	font-weight: normal;
+}
+#sidebar li li li{
+	display: none;
+}
+#sidebar li.current_page_ancestor li, #sidebar li.current_page_item li{
+	display: block;
+}
+
+
+#partner img{
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.navigation{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+li.current_page_item>a{
+	background: #f5ffda;
+}
+
+.post{
+	border-bottom: 1px solid #a6ce39;
+}
+
+.sticky{
+	border-top: 1px solid #A6CE3A;
+}
+.sticky h2{
+
+}
+.sticky ol{ padding-left: 20px; }
+.sticky p{  }
+
+.sticky .postmetadata{
+	display: none  !important;
+}
+
+.past_event{ color: #999; }
+
+.postmetadata{ color: #999; }
+.more-link{
+	padding: 2px 4px;
+	margin-top: 5px;
+	width: 50px;
+	background: #a6ce39;
+	color: #FFF !important;
+	display: block;
+}
+
+.alignright{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.alignleft{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.aligncenter{
+
+}
+
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ .clearfix {
+	display: inline-block;
+}
+ html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+
+
+
+/* WJ Erweiterungen */
+table.wj{
+	border-collapse: collapse;
+
+	}
+table.wj th, table.wj td{
+	border-left: 1px solid #0091D0;
+	border-right: 1px solid #0091D0;
+	padding: 2px 5px;
+	vertical-align: top;
+	}
+table .wjsecondrow{
+	background: #00AAEE;
+	color: #FFF;
+	}
+	
+.mitglieder th, .mitglieder td{
+	font-family: Arial;
+	font-size: 11px;
+	vertical-align: top;
+	text-align: left;
+	border-collapse: collapse; 
+	padding: 1px 5px;
+	border: none !important;
+	border-bottom: 1px solid #DDD !important;
+}
+.mitglieder {
+	background: #EEE;
+	margin-bottom: 30px;	
+	width: 322px;
+}
+
+.profilbild{
+	width: 70px;
+}
+.mitglied_foto{
+	width: 70px;
+}
+.mitglied_key{
+	width: 44px;
+}
+.mitglieder td em{
+	color: #999;
+	font-style: normal;
+}
+
+p.eventname{
+	background: #A6CE39;
+	color: #FFF;
+	padding: 3px 10px;
+	margin-bottom: 0;
+}
+p.eventname strong{
+	font-size: 18px;
+}
+p.eventname a { color: #FFF; text-decoration: underline; }
+div.termindetail{
+	padding: 10px;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+/* ENDE WJ Erweiterungen */
